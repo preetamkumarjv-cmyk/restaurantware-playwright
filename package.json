@@ -1,0 +1,19 @@
+{
+  "name": "restaurantware-playwright",
+  "version": "2.0.0",
+  "description": "Enterprise Playwright POM Framework — RestaurantWare Checkout",
+  "scripts": {
+    "test":          "npx playwright test",
+    "test:headed":   "npx playwright test --headed",
+    "test:checkout": "npx playwright test tests/checkout.spec.ts --headed",
+    "test:debug":    "npx playwright test --debug",
+    "report":        "npx playwright show-report reports/html-report",
+    "clean":         "npx rimraf allure-results allure-report reports test-results"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node":      "^20.0.0",
+    "typescript":       "^5.4.5",
+    "rimraf":           "^5.0.5"
+  }
+}

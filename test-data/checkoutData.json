@@ -1,0 +1,7 @@
+{
+  "couponCode":          "BASIC",
+  "discountPercentage":  5,
+  "expectedQuantity":    1,
+  "category":            "Basic Nature",
+  "categoryHref":        "/collections/basic-nature"
+}
